@@ -105,6 +105,10 @@
     {
       "id": "crystalmod:sapphire_elytra",
       "required": false
+    },
+    {
+      "id": "redstone_arsenal:flux_elytra",
+      "required": false
     }
   ]
 }
