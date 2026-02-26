@@ -15,7 +15,7 @@ jobs:
       contents: read
     strategy:
       matrix:
-        loader: [fabric, forge]
+        loader: [forge]
     
     steps:
       - name: Checkout repository
