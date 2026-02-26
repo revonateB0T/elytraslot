@@ -81,6 +81,11 @@ public class SimpleCompatibilityProvider implements IElytraProvider {
             new ResourceLocation("netherelytra:textures/entity/netherite_elytra.png"));
       }
 
+      if (isLoaded.test("redstone_arsenal")) {
+        ID_TO_TEXTURE.put("redstone_arsenal:flux_elytra",
+            new ResourceLocation("redstone_arsenal:textures/entity/flux_elytra.png"));
+      }
+
       if (isLoaded.test("crystalmod")) {
         ID_TO_TEXTURE.put("crystalmod:sapphire_elytra",
             new ResourceLocation("crystalmod:textures/entity/sapphire_elytra.png"));
